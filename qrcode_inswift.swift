@@ -59,7 +59,7 @@ struct MainView: View {
         VStack(spacing: 16) {
             Text("My Personl QR")
                 .font(.title3.bold())
-            QRCodeView(text: "ENTER YOUR LINK", size: 260, quietZone: 20)
+            QRCodeView(text: "ENTER YOUR LINK", size: 260, quietZone: 20) // format: https://www.linkedin.com/in/islom-shamsiev/
         }
         .padding()
     }
